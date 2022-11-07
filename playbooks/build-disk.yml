@@ -30,6 +30,7 @@
           - parted
           - e2fsprogs
           - gnupg
+          - depmod
         state: present
 
     - name: Load aufs module
