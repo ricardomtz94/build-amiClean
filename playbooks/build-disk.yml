@@ -30,6 +30,7 @@
           - parted
           - e2fsprogs
           - gnupg
+          - kernel-modules-extra
         state: present
 
     - name: Load aufs module
