@@ -59,7 +59,7 @@
         filters:
           #name: "debian-jessie-amd64-hvm-*"
           #name: "debian-11-amd64-20221020-1174*"
-          name:"debian*"
+          name: "debian*"
           architecture: "x86_64"
           hypervisor: "xen"
           "root-device-type": "ebs"
