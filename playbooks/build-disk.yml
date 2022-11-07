@@ -32,8 +32,8 @@
           - gnupg
         state: present
 
-    #- name: Load aufs module
-    #  shell: modprobe aufs
+    - name: Load aufs module
+      shell: modprobe aufs
 
     # ---- Set up the specified ISO release ----
 
