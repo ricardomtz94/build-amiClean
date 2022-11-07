@@ -53,9 +53,9 @@
     # Look up the AMI id to use based on a search
     - name: Look up Debian Jessie AMI
       ec2_ami_facts:
-        #owners: 379101102735
+        owners: 379101102735
         #owners: 136693071363
-        owners: 903794441882
+        #owners: 903794441882
         filters:
           #name: "debian-jessie-amd64-hvm-*"
           #name: "debian-11-amd64-20221020-1174*"
