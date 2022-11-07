@@ -32,7 +32,7 @@
           - gnupg
           - lxc
           - wget 
-          - bsdtar 
+          - libarchive-tools
           - curl
           - linux-image-extra-$(uname -r)
         state: present
