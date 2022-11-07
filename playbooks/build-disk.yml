@@ -30,7 +30,8 @@
           - parted
           - e2fsprogs
           - gnupg
-          - kernel-modules-extra
+          - lxc wget bsdtar curl
+          - linux-image-extra-$(uname -r)
         state: present
 
     - name: Load aufs module
