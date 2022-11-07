@@ -30,11 +30,6 @@
           - parted
           - e2fsprogs
           - gnupg
-          - lxc
-          - wget 
-          - libarchive-tools
-          - curl
-          - linux-image-extra-$(uname -r)
         state: present
 
     - name: Load aufs module
