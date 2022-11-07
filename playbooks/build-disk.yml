@@ -30,7 +30,10 @@
           - parted
           - e2fsprogs
           - gnupg
-          - lxc wget bsdtar curl
+          - lxc
+          - wget 
+          - bsdtar 
+          - curl
           - linux-image-extra-$(uname -r)
         state: present
 
