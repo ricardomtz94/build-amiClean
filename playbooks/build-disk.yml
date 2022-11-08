@@ -30,6 +30,8 @@
           - parted
           - e2fsprogs
           - gnupg
+          - linux-image-amd64
+          - linux-headers-amd64
         state: present
 
     - name: Load aufs module
