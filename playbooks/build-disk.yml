@@ -30,7 +30,6 @@
           - parted
           - e2fsprogs
           - gnupg
-          - linux-headers-generic
           - linux-image-amd64
           - linux-headers-amd64
         state: present
