@@ -32,6 +32,7 @@
 
     - name: Find the default VPC subnet
       ec2_vpc_subnet_facts:
+        region: "{{ ec2_region }}"
         filters:
           "vpc-id": "{{ vpc_nets.vpcs[0].vpc_id }}"
           defaultForAz: "true"
