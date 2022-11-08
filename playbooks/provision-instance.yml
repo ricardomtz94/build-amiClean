@@ -56,6 +56,7 @@
     - name: Look up Debian Jessie AMI
       ec2_ami_facts:
         owners: 379101102735
+        region: "{{ ec2_region }}"
         #owners: 136693071363
         #owners: 903794441882
         filters:
